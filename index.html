@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Math Master</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Math Master</h1>
+    <div id="question">Loading...</div>
+    <div class="timer">⏱ Time left: <span id="time">10</span>s</div>
+    <input type="number" id="answerInput" placeholder="Enter your answer">
+    <button onclick="checkAnswer()">Submit</button>
+    <div id="feedback"></div>
+    <div class="scoreboard">
+      ✅ Score: <span id="score">0</span> | 🔢 Question: <span id="qCount">1</span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
